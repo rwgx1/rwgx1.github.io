@@ -14,7 +14,6 @@ He is one awesome dude. On YouTube, Discord etc.
 https://bike.seedhost.eu/arcolinux/iso/arcolinuxd-v20.2.12.iso
 
 ## Install in virtualbox
----------------------
 
 The installer is called Calamares; When you get to the software selection bit, don’t select anything… this way you get a black terminal screen on reboot/login.
 
@@ -40,7 +39,6 @@ Then you check if you need to update the packages coming from AUR with the alias
     upall
 
 ## Desktops
---------
 
 There are a number of desktops to choose from: Cinnamon, Mate, LXDE, i3
 etc (need Brisk-menu to make Mate look like Ubnuntu-Mate)
@@ -49,7 +47,7 @@ Clone one (or more) of these from github
 
     git clone https://github.com/arcolinuxd/arco-lxqt
     git clone https://github.com/arcolinuxd/arco-mate
-    git clone https://github.com/arcolinuxd/arco-cinnamon)
+    git clone https://github.com/arcolinuxd/arco-cinnamon
 
 cd to the desktop folder of your choice.
 
@@ -87,7 +85,6 @@ Then carry on with as many of the other scripts as you like.
 Note the disk space used.
 
 ## Some links:
---------------
 https://arcolinuxd.com/how-to-install-arcolinuxd
 https://arcolinuxd.com/1-installation-of-arcolinuxd-lxqt
 
