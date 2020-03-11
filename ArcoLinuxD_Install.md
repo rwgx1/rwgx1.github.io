@@ -86,6 +86,7 @@ Note the disk space used.
 
 ## Some links:
 https://arcolinuxd.com/how-to-install-arcolinuxd
+
 https://arcolinuxd.com/1-installation-of-arcolinuxd-lxqt
 
 
