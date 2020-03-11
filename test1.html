@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+</head>
+<body>
+<h1 id="arco-linux">Arco Linux</h1>
+<p>A <strong>quick and easy</strong> way Arco Linux is Arch Linux, with a few extras. Like Arch, its FAST, compare Ubuntu etc, for example:</p>
+<p>systemctl list-unit-files | grep enabled | wc -l</p>
+<p>Ubuntu = 97 Arch/Arco = 18</p>
+<p>Erik Dubois is the main man https://erikdubois.be He is one awesome dude. On YouTube, Discord etc.</p>
+<h2 id="get-this-iso">Get this iso</h2>
+<p>https://bike.seedhost.eu/arcolinux/iso/arcolinuxd-v20.2.12.iso</p>
+<h2 id="install-in-virtualbox">Install in virtualbox</h2>
+<p>The installer is called Calamares; When you get to the software selection bit, don’t select anything… this way you get a black terminal screen on reboot/login.</p>
+<p>After logging in to black terminal screen:</p>
+<p>Ensure you have the fastest Arch Linux servers with the alias</p>
+<pre><code>mirror</code></pre>
+<p>Update first your system to receive the latest updates</p>
+<pre><code>sudo pacman -Syyu</code></pre>
+<p>or use its alias</p>
+<pre><code>update</code></pre>
+<p>This will force a refresh of all package lists and upgrade all <strong>Arch</strong> and <strong>ArcoLinux</strong> packages</p>
+<p>Then you check if you need to update the packages coming from AUR with the alias</p>
+<pre><code>upall</code></pre>
+<h2 id="desktops">Desktops</h2>
+<p>There are a number of desktops to choose from: Cinnamon, Mate, LXDE, i3 etc (need Brisk-menu to make Mate look like Ubnuntu-Mate)</p>
+<p>Clone one (or more) of these from github</p>
+<pre><code>git clone https://github.com/arcolinuxd/arco-lxqt
+git clone https://github.com/arcolinuxd/arco-mate
+git clone https://github.com/arcolinuxd/arco-cinnamon</code></pre>
+<p>cd to the desktop folder of your choice.</p>
+<p>run the scripts from the smallest to largest numbers.</p>
+<p>You can examine the scripts/make changes etc</p>
+<pre><code>cd arco-lxqt
+
+./000-use-all-cores-makepkg-conf-v4.sh
+./100-display-manager-and-desktop-v1.sh</code></pre>
+<p>This gives a ‘minimal’ install. Note disk space used. Optionally reboot here.</p>
+<pre><code>sudo reboot</code></pre>
+<p>Then carry on with as many of the other scripts as you like.</p>
+<pre><code>110-install-sound-v3.sh
+120-bluetooth-v2.sh
+121-fix-bluetooth-switch-not-working-v1.sh
+130-install-printers-v3.sh
+140-install-samba-v3.sh
+150-install-network-discovery-v4.sh
+200-software-arch-linux-repo-v2.sh
+400-software-arch-linux-repo-distro-specific-v1.sh
+500-software-AUR-repo-distro-specific-v1.sh
+700-installing-fonts-v2.sh
+800-autologin-v3.sh
+900-fix-microcode-error-v1.sh
+910-fix-mouse-cursor-breeze-snow-v1.sh
+
+sudo reboot</code></pre>
+<p>Note the disk space used.</p>
+<h2 id="some-links">Some links:</h2>
+<p>https://arcolinuxd.com/how-to-install-arcolinuxd</p>
+<p>https://arcolinuxd.com/1-installation-of-arcolinuxd-lxqt</p>
+</body>
+</html>
