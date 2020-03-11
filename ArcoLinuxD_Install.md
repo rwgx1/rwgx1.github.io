@@ -7,7 +7,7 @@ systemctl list-unit-files | grep enabled | wc -l
 Ubuntu = 97
 Arch/Arco = 18
 
-Erik Dubbois is the main man https://erikdubois.be 
+Erik Dubois is the main man https://erikdubois.be 
 He is one awesome dude. On YouTube, Discord etc.
 
 ## Get this iso
