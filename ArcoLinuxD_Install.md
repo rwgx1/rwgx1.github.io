@@ -1,28 +1,22 @@
-**Arco Linux**
-==============
-
-is Arch Linux, with a few extras. Like Arch, its FAST, compare Ubuntu
-etc, for example:
+# Arco Linux
+A **quick and easy** way
+Arco Linux is Arch Linux, with a few extras. Like Arch, its FAST, compare Ubuntu etc, for example:
 
 systemctl list-unit-files | grep enabled | wc -l
 
 Ubuntu = 97
-
 Arch/Arco = 18
 
-Erik Dubbois is the main man
-[*https://erikdubois.be/*](https://erikdubois.be/) He is one awesome
-dude. On YouTube, Discord etc.
+Erik Dubbois is the main man https://erikdubois.be 
+He is one awesome dude. On YouTube, Discord etc.
 
-Get this iso
-[*https://bike.seedhost.eu/arcolinux/iso/arcolinuxd-v20.2.12.iso*](https://bike.seedhost.eu/arcolinux/iso/arcolinuxd-v20.2.12.iso)
+#Get this iso
+https://bike.seedhost.eu/arcolinux/iso/arcolinuxd-v20.2.12.iso
 
-Install in virtualbox
+#Install in virtualbox
 ---------------------
 
-The installer is called Calamares; When you get to the software
-selection bit, don’t select anything… this way you get a black terminal
-screen on reboot/login.
+The installer is called Calamares; When you get to the software selection bit, don’t select anything… this way you get a black terminal screen on reboot/login.
 
 After logging in to black terminal screen:
 
@@ -46,7 +40,7 @@ the alias
 
 upall
 
-Desktops
+#Desktops
 --------
 
 There are a number of desktops to choose from: Cinnamon, Mate, LXDE, i3
@@ -54,14 +48,9 @@ etc (need Brisk-menu to make Mate look like Ubnuntu-Mate)
 
 Clone one (or more) of these from github
 
-git clone
-[*https://github.com/arcolinuxd/arco-lxqt*](https://github.com/arcolinuxd/arco-lxqt)
-
-git clone
-[*https://github.com/arcolinuxd/arco-mate*](https://github.com/arcolinuxd/arco-mate)
-
-git clone
-[*https://github.com/arcolinuxd/arco-cinnamon*](https://github.com/arcolinuxd/arco-cinnamon)
+git clone https://github.com/arcolinuxd/arco-lxqt
+git clone https://github.com/arcolinuxd/arco-mate
+git clone https://github.com/arcolinuxd/arco-cinnamon)
 
 cd to the desktop folder of your choice.
 
@@ -75,12 +64,11 @@ cd arco-lxqt
 
 ./100-display-manager-and-desktop-v1.sh
 
-This gives a ‘minimal’ install. Note disk space used. Optionally reboot
-here.
+This gives a ‘minimal’ install. Note disk space used. Optionally reboot here.
 
 sudo reboot
 
-then carry on with as many of the other scripts as you like.
+Then carry on with as many of the other scripts as you like.
 
 110-install-sound-v3.sh
 
@@ -110,10 +98,11 @@ then carry on with as many of the other scripts as you like.
 
 sudo reboot
 
-Note the disk used.
+Note the disk space used.
 
-Some links:
+#Some links:
 
-[*https://arcolinuxd.com/how-to-install-arcolinuxd/*](https://arcolinuxd.com/how-to-install-arcolinuxd/)
+https://arcolinuxd.com/how-to-install-arcolinuxd
+https://arcolinuxd.com/1-installation-of-arcolinuxd-lxqt
 
-[*https://arcolinuxd.com/1-installation-of-arcolinuxd-lxqt/*](https://arcolinuxd.com/1-installation-of-arcolinuxd-lxqt/)
+
